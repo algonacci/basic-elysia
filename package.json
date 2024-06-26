@@ -2,10 +2,10 @@
   "name": "basic-elysia",
   "version": "1.0.50",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@elysiajs/html": "^1.0.2",
     "elysia": "latest"
   },
   "devDependencies": {
